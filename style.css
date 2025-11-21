@@ -1,10 +1,28 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+}
+
 body {
-    background-image: url('https://t3.ftcdn.net/jpg/15/15/41/62/360_F_1515416200_3YJApo1bvtyXX52w5k26sMQWPg1ldEVP.jpg');
+    background-image: url('media/lilypad-background.jpg');
     background-repeat: repeat;
+    background-size: 350px auto;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
 p {
-    padding: 2em;
-    font-size : 1em;
+    padding: 1.38em;
+    font-size: 1.38em;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    color: inherit;
+    margin: 1em auto;
+    max-width: 1000px;
+
 }
+
