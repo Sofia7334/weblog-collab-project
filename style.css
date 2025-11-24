@@ -6,6 +6,75 @@ h1 {
     padding: 0.5em;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+/* Table styles: make table text pink and match image/text sizing */
+.species-table table,
+.image-gallery table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.species-table th,
+.species-table td {
+    padding: 0.5em;
+    vertical-align: middle;
+    text-align: center;
+    height: 140px;
+    color: #d81b60; /* darker pink */
+    font-size: 1.15em; /* a bit larger */
+    font-weight: 700; /* bold */
+}
+.species-table th {
+    color: #000000; /* black */
+    font-size: 1.6em; /* larger */
+    background-color: #a3a3a3;
+    border: 0.5px solid rgba(0,0,0,0.08);
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+.species-table td:first-child {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.8em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+.species-table img,
+.image-gallery img {
+    width: 185px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.image1 img {
+    width: 500px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
 body {
     background-image: url('media/lilypad-background.jpg');
     background-repeat: repeat;
@@ -25,4 +94,26 @@ p {
     max-width: 1000px;
 
 }
+
+.diet-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.diet-list ul,
+.diet-list li {
+    font-size: 1.5em;
+}
+
+.header img,
+.gif1 img,
+.conclusion img {
+    display: block;
+    margin: 0 auto;
+}
+
+.conclusion p {
+    text-align: center;
+}
+
 
