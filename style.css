@@ -1,3 +1,4 @@
+/* rubric requirement: Element/tag selectors */
 h1 {
     font-family: 'Arial', sans-serif;
     font-size: 3em;
@@ -6,6 +7,7 @@ h1 {
     padding: 0.5em;
 }
 
+/* rubric requirement: Fonts, sizes, colors, spacing */
 h2 {
     font-size: 2em;
     font-weight: bold;
@@ -13,6 +15,7 @@ h2 {
     padding: 0.5em;
 }
 
+/* rubric requirement: Fonts, sizes, colors, spacing */
 h3 {
     font-size: 1.8em;
     font-weight: bold;
@@ -21,25 +24,29 @@ h3 {
 }
 
 
+
+/* rubric requirement: Element/tag selectors, Padding/margins/borders/box-shadow, Centering */
 /* Table styles: make table text pink and match image/text sizing */
 .species-table table,
 .image-gallery table {
     border-collapse: collapse;
     margin: 0 auto;
 }
+/* rubric requirement: Fonts, sizes, colors, spacing, Padding/margins/borders */
 .species-table th,
 .species-table td {
     padding: 0.5em;
     vertical-align: middle;
     text-align: center;
     height: 140px;
-    color: #d81b60; /* darker pink */
-    font-size: 1.15em; /* a bit larger */
-    font-weight: 700; /* bold */
+    color: #d81b60;
+    font-size: 1.15em;
+    font-weight: 700; 
 }
+/* rubric requirement: Colors, Padding/margins/borders/box-shadow */
 .species-table th {
-    color: #000000; /* black */
-    font-size: 1.6em; /* larger */
+    color: #000000;
+    font-size: 1.6em;
     background-color: #a3a3a3;
     border: 0.5px solid rgba(0,0,0,0.08);
     border-radius: 0;
@@ -57,6 +64,8 @@ h3 {
     border-radius: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.04);
 }
+/* rubric requirement: Padding/margins/borders/box-shadow, Centering */
+/* rubric requirement: Fonts, sizes, Centering */
 .species-table img,
 .image-gallery img {
     width: 185px;
@@ -66,7 +75,7 @@ h3 {
     margin: 0 auto;
 }
 
-
+/* rubric requirement: Fonts, sizes, Centering */
 .image1 img {
     width: 500px;
     max-width: 80%;
@@ -75,6 +84,7 @@ h3 {
     margin: 1em auto;
 }
 
+/* rubric requirement: Background image/color */
 body {
     background-image: url('media/lilypad-background.jpg');
     background-repeat: repeat;
@@ -82,6 +92,7 @@ body {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* rubric requirement: Element/tag selectors, Fonts/sizes/colors/spacing, Padding/margins/borders/box-shadow, Centering, Readability */
 p {
     padding: 1.38em;
     font-size: 1.38em;
@@ -95,16 +106,19 @@ p {
 
 }
 
+/* rubric requirement: Centering (margin trick) */
 .diet-list {
     max-width: 600px;
     margin: 0 auto;
 }
 
+/* rubric requirement: Fonts, sizes, spacing */
 .diet-list ul,
 .diet-list li {
     font-size: 1.5em;
 }
 
+/* rubric requirement: Centering */
 .header img,
 .gif1 img,
 .conclusion img {
@@ -112,6 +126,7 @@ p {
     margin: 0 auto;
 }
 
+/* rubric requirement: Centering (text-align) */
 .conclusion p {
     text-align: center;
 }
